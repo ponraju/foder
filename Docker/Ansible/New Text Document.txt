@@ -1,0 +1,2 @@
+ansible all -m yum -a "name=httpd state=present" -b
+ansible all -m service -a "name=httpd state=started" -b
